@@ -16,7 +16,7 @@
 
 <!--/*@thymesVar id="user" type="web.model.User"*/-->
 <form th:method="POST" th:action="@{/users/update}" th:object="${user}">
-    <!-- Скрытое поле ID обязательно! -->
+
     <input type="hidden" th:field="*{id}" />
 
     <label for="name">Name:</label>

@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CrudTransferSpringBootApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CrudTransferSpringBootApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CrudTransferSpringBootApplication.class, args);
+    }
 
 }

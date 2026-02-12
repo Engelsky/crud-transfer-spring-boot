@@ -1,1 +1,11 @@
-spring.application.name=crud-transfer-spring-boot
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_hibernate_db?verifyServerCertificate=false&useSSL=false&requireSSL=false&useLegacyDatetimeCode=false&amp&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: vRot
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create

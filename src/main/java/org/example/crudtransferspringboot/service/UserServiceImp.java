@@ -4,7 +4,6 @@ import org.example.crudtransferspringboot.repository.UserRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.example.crudtransferspringboot.model.User;
-
 import java.util.List;
 
 @Service
